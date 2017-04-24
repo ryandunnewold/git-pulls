@@ -7,6 +7,7 @@
   margin-right: 16px;
   box-shadow: 0 2px 1px #ccc;
   transition: background-color 100ms;
+  font-size: 12px;
 }
 
 .chrome-spendly-button:hover, .chrome-spendly-button:focus {
