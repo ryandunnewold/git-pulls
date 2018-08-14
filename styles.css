@@ -1,7 +1,7 @@
 .chrome-spendly-button {
   background-size: cover;
   border-radius: 4px;
-  background-color: rgb(111,135,236);
+  background: linear-gradient(135deg, #4CB8C4, #3CD3AD);
   color: #fff;
   padding: 8px;
   margin-right: 16px;

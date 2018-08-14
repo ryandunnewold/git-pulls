@@ -1,17 +1,17 @@
 {
   "manifest_version": 2,
-  "name": "Spendly",
-  "version": "0.1.0",
-  "description": "Adds spendly button to transactions",
+  "name": "GitHub PR",
+  "version": "0.0.1",
+  "description": "Adds GitHub button for Production PR",
   "background" : {
     "scripts" : ["background.js"]
   },
   "content_scripts": [{
     "css": ["styles.css"],
-    "matches": ["https://bank.simple.com/*"]
+    "matches": ["*://*.github.com/*"]
   }],
   "browser_action": {
-    "default_icon": "spendly-logo-apple.png" 
+    "default_icon": "github-logo.png"
   },
-  "permissions": ["activeTab"]
+  "permissions": ["activeTab", "tabs"]
 }
